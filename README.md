@@ -54,7 +54,7 @@ The project is hosted at Openshift. Later to be migrated to AWS on a RedHat box.
 1.a. If there is no other solution, place it in webapp/www/cgi-bin folder.
 1.b. Html files would go to webapp/www/htm folder. 
 
-### Genral Note:
+### General Note:
 1. It appears that adding a test resource folder breaks JAX/RS support.
 2. Do not add/generate files larger than 50MB. Github puts a 1GB cap to regular projects plus large files make it slow for users pulling the project. If you do, I'll delete the files and causative code without notice.
 3. Library files should be maintained in POM and not in the lib folder.
