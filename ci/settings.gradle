@@ -16,6 +16,6 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'ODDSver0.01.000SNAPSHOT'
+rootProject.name = 'ROOT'
 
 

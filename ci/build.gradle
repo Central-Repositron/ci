@@ -49,7 +49,7 @@ repositories {
         url "http://htmleasy-maven.googlecode.com/svn/trunk/"
         url "http://mvnrepository.com/artifact/javax.servlet"
     }
-    mavenRepo name: 'jboss-nexus', url: "http://repository.jboss.org/nexus/content/groups/public/"
+    // mavenRepo name: 'jboss-nexus', url: "http://repository.jboss.org/nexus/content/groups/public/"
 }
 
 repositories {
