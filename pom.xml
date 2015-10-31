@@ -242,8 +242,10 @@
 						<version>2.2</version>
 						<configuration>
 							<url>http://localhost:8080/manager/text</url>
-							<server>tomcat8</server>
-							<path>/</path>
+							<server>TomcatServer</server>
+							<path>/${project.build.finalName}</path>
+                                                        <username>sghosh</username>
+                                                        <password>Pa55</password>
 						</configuration>
 					</plugin>
 				</plugins>

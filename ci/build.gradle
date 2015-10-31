@@ -8,6 +8,7 @@
 
 // Apply plugin automation
 apply from: 'http://www.tellurianring.com/projects/gradle-plugins/gradle-templates/apply.groovy'
+apply from: 'https://raw.github.com/akhikhl/gretty/master/pluginScripts/gretty.plugin'
 
 // Apply the plugins
 apply plugin: 'java'
@@ -106,12 +107,18 @@ dependencies {
     testCompile 'junit:junit:4.11'
 }
 
+// gretty config for deployment
+gretty { port = 8080 contextPath = '/' servletContainer = 'tomcat8' }
+
 // Configuration versioning parameters for eclipse task
 eclipse {
     wtp {
         facet {
             facet name: 'jst.java', version: '1.7'
 	    facet name: 'jst.web', version: '3.0'
+        }
+        component {
+            contextPath='/'
         }
     }
 }
