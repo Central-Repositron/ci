@@ -38,14 +38,6 @@
 			<version>1.2.17</version>
 		</dependency>
 
-		<!-- poi -->
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>3.13</version>
-		</dependency>
-
-
 		<!-- Hibernate -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -171,11 +163,12 @@
 			<version>2.1.2</version>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.struts.xwork</groupId>
-			<artifactId>xwork-core</artifactId>
-			<version>2.2.1</version>
-		</dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.13</version>
+		</dependency>	
 	</dependencies>
+
 
 	<profiles>
 		<profile>
@@ -232,8 +225,8 @@
 						<version>2.3</version>
 						<configuration>
 							<failOnMissingWebXml>false</failOnMissingWebXml>
-							<outputDirectory>deployments</outputDirectory>
-							<warName>ROOT</warName>
+							<outputDirectory>target</outputDirectory>
+							<warName>${project.build.finalName.version}</warName>
 						</configuration>
 					</plugin>
 					<plugin>
