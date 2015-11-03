@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status = "INFO" monitorInterval = "30" advertiser = "multicastdns">
+	<Properties>
+		<Property name = "filename">/tmp/server.log</Property>
+		<Property name = "rollFile">/tmp/smokeTest.log</Property>
+	</Properties>
+	<ThresholdFilter level="info" />
+	<Appenders>
+		<Console name="COLSOLE" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d %-5p [%t] %C{1.}{2} (%F:%L) [%t] - %M %m %ex%n" />
+			<Filters>
+				<Filter type="MarkerFilter" marker="FLOW" onMatch="ACCEPT" onMismatch="NEUTRAL" />
+				<Filter type="MarkerFilter" marker="EXCEPTION" onMatch="DENY" onMismatch="ACCEPT" />
+			</Filters>
+		</Console>
+		<Console name="FLOW">
+			<Layout type="PatternLayout" pattern="%C{1}.%M %m %ex%n" />
+			<Filters>
+				<Filter type="MarkerFilter" marker="FLOW" onMatch="ACCEPT" onMismatch="NEUTRAL" />
+				<Filter type="MarkerFilter" marker="EXCEPTION" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters> 
+		</Console>
+		<File name="FILE" fileName="${fileName}">
+			<Layout type="PatternLayout">
+				<Pattern>%d %-5p [%t] %C{1.}{2} (%F:%L) [%t] - %M %m %ex%n</Pattern>
+			</Layout>
+		</File>
+		<Routing name="ROUTING">
+			<Routes pattern="$${sd:type}">
+				<Route>
+					<RollingFile name="Rolling-${sd:type}" fileName="${rollFile}" filePattern="/tmp/rolling/localhost-${sd:type}.%i.log.gz">
+						<PatternLayout>
+							<pattern>%d %-5p [%t] %C{1.}{2} (%F:%L) [%t] - %M %m %ex%n</pattern>
+						</PatternLayout>
+						<SizeBasedTriggeringPolicy size="500" />
+					</RollingFile>
+				</Route>
+				<Route AppenderRef="STDOUT" key="Audit" />
+				<Route AppenderRef="List" key="Service" />
+			</Routes>
+		</Routing>
+		<Async name="ASYNC">
+			<AppenderRef ref="CONSOLE" />
+			<AppenderRef ref="ROUTING" />
+			<AppenderRef ref="FILE" />
+		</Async>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="ASYNC" />
+		</Root>
+	</Loggers>
+</Configuration>

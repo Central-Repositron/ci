@@ -1,0 +1,556 @@
+    1  USER=root vncserver -geometry 1202x720
+    2  apt-get update
+    3  apt-get upgrade
+    4  apt-get reinstall dropbear
+    5  apt-get remove dropbear
+    6  apt-get autoremove
+    7  apt-get update
+    8  apt-get upgrade
+    9  apt-get install dropbear
+   10  apt-get remove dropbear
+   11  apt-get install r-base
+   12  logout
+   13  exit
+   14  USER=root vncserver -geometry 1202x720
+   15  apt-get update
+   16  sudo aptitude install debian-keyring debian-archive-keyring
+   17  apt-get install debian-keyring debian-archive-keyring
+   18  apt-get install sudo
+   19  apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 7638D0442B90D010
+   20  apt-key update
+   21  apt-get update
+   22  apt-get upgrade
+   23  apt-cache search r-base
+   24  apt-get install nano
+   25  nano /etc/apt/sources.list
+   26  apt-get update
+   27  nano /etc/apt/sources.list
+   28  apt-get update
+   29  apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ED444FF07D8D0BF6
+   30  apt-get update
+   31  apt-key update
+   32  apt-get upgrade
+   33  apt-get upgrade --fix-missing
+   34  apt-get autoremove
+   35  USER=root vncserver -geometry 1202x720
+   36  apt-get upgrade
+   37  apt-get install r-base
+   38  R
+   39  apt-get install muscle
+   40  apt-cache search java
+   41  apt-get install opejdk-8-jdk
+   42  apt-cache search openjdk8
+   43  apt-cache search openjdk
+   44  apt-get install openjdk-8-jdk
+   45  ifconfig
+   46  whois 117.249.65.106
+   47  apt-get install whois
+   48  whois 117.249.65.106
+   49  apt-get install openjdk-8-jdk openjdk-8-sources openjdk-8-doc
+   50  apt-get install openjdk-8-jdk openjdk-8-src openjdk-8-doc
+   51  apt-get install openjdk-8-jdk openjdk-8-source openjdk-8-doc
+   52  java -version
+   53  javac -version
+   54  apt-get install openjdk-8-jdk openjdk-8-source openjdk-8-doc
+   55  apt-get install openjdk-8-jdk openjdk-8-source openjdk-8-doc libjli
+   56  apt-get install --reinstall openjdk-8-jdk openjdk-8-source openjdk-8-doc
+   57  javac -version
+   58  java -version
+   59  perl
+   60  perl -v
+   61  python -v
+   62  exit
+   63  USER=root vncserver -geometry 1202x720
+   64  exit
+   65  USER=root vncserver -geometry 1202x720
+   66  java -version
+   67  sudo update-alternatives --config java
+   68  sudo apt-get install openjdk-8-jre
+   69  sudo apt-get remove openjdk-8-jre openjdk-8-jdk 
+   70  sudo apt-get install openjdk-8-jre 
+   71  java -v
+   72  locate
+   73  sudo apt-get install locate
+   74  locate libjli.so
+   75  locate java
+   76  locate perl
+   77  find java
+   78  sudo apt-get install openjdk-8-jre-headless
+   79  sudo apt-get install openjdk-8-jdk
+   80  sudo apt-get install openjdk-8-source
+   81  apt-get install python-software-properties -y --fix-missing add-apt-repository ppa:openjdk-r/ppa apt-get update -y --fix-missing apt-get upgrade -y --fix-missing apt-get autoremove -y apt-get remove -y apt-get clean -y apt-get install openjdk-7-jdk -y --fix-missing java -version
+   82  apt-get install python-software-properties -y --fix-missing
+   83  add-apt-repository ppa:openjdk-r/ppa
+   84  apt-get install add-apt-repository
+   85  apt-get update -y --fix-missing
+   86  apt-get upgrade -y --fix-missing
+   87  java
+   88  apt-get remove openjdk-8-.* -y
+   89  java -version
+   90  apt-get autoremove -y
+   91  apt-get remove -y
+   92  apt-get clean -y
+   93  apt-get install openjdk-8-.* -y
+   94  java -v
+   95  /usr/lib/jvm/java-1.8.0-openjdk-armel/jre/bin/java -version
+   96  /usr/lib/jvm/java-8-openjdk-armel/jre/bin/java -version
+   97  /usr/lib/jvm/java-8-openjdk-armel/jre/bin/javac -version
+   98  /usr/lib/jvm/java-8-openjdk-armel/bin/javac -version
+   99  R
+  100  exit
+  101  USER=root vncserver -geometry 1202x720
+  102  R
+  103  java
+  104  ps -p $$
+  105  ps $$
+  106  nano .bashrc
+  107  zsh
+  108  apt-cache search zsh
+  109  apt-cache search vim
+  110  apt-getb
+  111  apt-get install csh zsh.* git-.* vim-.*
+  112  exit
+  113  USER=root vncserver -geometry 1202x720
+  114  R
+  115  apt-cache search haskell
+  116  apt-cache search cran
+  117  R 
+  118  apt-cache search RCurl
+  119  apt-get install r-cran-rcurl
+  120  apt-get install r-cran-xml
+  121  apt-get remove r-cran-xml
+  122  apt-get install --reinstall r-cran-xml
+  123  apt-get install  r-cran-.*
+  124  apt-cache search cran
+  125  apt-get install r-recommended
+  126  apt-get install r-doc-info
+  127  apt-cache search cran
+  128  apt-cache search mysql
+  129  apt-cache search hadoop
+  130  apt-cache search haskell
+  131  R
+  132  exit
+  133  USER=root vncserver -geometry 1202x720
+  134  rm -rf /tmp/.X11-unix/X2
+  135  rm -rf /tmp/.X11-unix/X3
+  136  rm -rf /tmp/.X11-unix/X4
+  137  rm -rf /tmp/.X11-unix/X5
+  138  rm -rf /tmp/.X11-unix/X6
+  139  rm -rf /tmp/.X11-unix/X7
+  140  nano /etc/sudoers
+  141  useradd sayantan
+  142  passwd sayantan
+  143  mkdir /home/jsmithm
+  144  chown jsmith:users /home/jsmith
+  145  mkdir /home/sayantan
+  146  chown sayantan:users /home/sayantan
+  147  adduser sghosh
+  148  su sayantan
+  149  su 10152
+  150  su 10159
+  151  ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -C "android"
+  152  ssh-keygen -t rsa -b 4096
+  153  ssh-keygen -t rsa -b 4096 -f .ssh/id_rsa -C "android" -p -o -a 1000
+  154  ssh-keygen -t rsa -b 4096 -f /root/.ssh/id_rsa -C "android" -p -o -a 1000
+  155  more /root/.ssh/id_rsa.pub
+  156  ssh git@github.com
+  157  vim /root/.ssh/id_rsa.pub
+  158  ssh git@github.com
+  159  ls
+  160  cd home
+  161  ll
+  162  ls
+  163  ls -lrt
+  164  ls -lart
+  165  more .profile
+  166  java
+  167  more .zshrc
+  168  zsh
+  169  /usr/lib/jvm/java-8-openjdk-armel/jre/bin/java -version
+  170  /usr/lib/jvm/java-8-openjdk-armel/jdk/bin/java -version
+  171  /usr/lib/jvm/java-8-openjdk-armel/bin/java -version
+  172  /usr/lib/jvm/java-8-openjdk-armel/bin/javaw -version
+  173  /usr/lib/jvm/java-8-openjdk-armel/bin/java -version
+  174  nano .profile
+  175  source .profile
+  176  java -version
+  177  javac -version
+  178  git -version
+  179  perl -v
+  180  ls
+  181  rm -rf jsmith/
+  182  ls
+  183  cd sayantan/
+  184  ls
+  185  ls ../sghosh/
+  186  rm -rf sghosh
+  187  cd ..
+  188  rm -rf sghosh
+  189  mkdir git
+  190  cd git
+  191  git init
+  192  git clone git@github.com:Central-Repositron/ci.git
+  193  la
+  194  ls -la
+  195  cd .git
+  196  ls
+  197  more config
+  198  cd ..
+  199  cd ci
+  200  more config
+  201  cd 
+  202  more config
+  203  cd .. 
+  204  git pull origin master
+  205  ls
+  206  mvn
+  207  apt-cache search maven
+  208  apt-get install .*maven.*
+  209  apt-get install .*gradle.*
+  210  apt-get install gradle
+  211  apt-get clean
+  212  apt-get remove
+  213  apt-get install jenkins
+  214  apt-cache search
+  215  apt-get install gradle gradle-docs
+  216  apt-get install gradle gradle-doc
+  217  apt-get install gradle gradle-doc libgradle-core-java libgradle-plugins-java
+  218  apt-get install gradle gradle-doc libgradle-core-java libgradle-plugins-java libnative-platorm-java
+  219  apt-get install gradle gradle-doc libgradle-core-java libgradle-plugins-java libnative-platform-java
+  220  git autoremove
+  221  apt-get autoremove
+  222  apt-get install gradle
+  223  apt-get install gradle gradle-doc libgradle-core-java libgradle-plugins-java libnative-platform-java
+  224  mvn -v
+  225  mvn package
+  226  ifconfig
+  227  ping www.google.com
+  228  mvn package
+  229  mvn clean
+  230  exit
+  231  USER=root vncserver -geometry 1202x720
+  232  rm -rf /tmp/.X1-lock
+  233  rm -rf /tmp/.X2-lock
+  234  rm -rf /tmp/.X3-lock
+  235  rm -rf /tmp/.X4-lock
+  236  rm -rf /tmp/.X5-lock
+  237  rm -rf /tmp/.X6-lockm
+  238  rm -rf /tmp/.X7-lock
+  239  apt-cache search git-.*
+  240  apt-get install vim-.* zsh.* git git-core
+  241  apt-cache search mercurial
+  242  apt-cache search git
+  243  apt-cache search git-.*
+  244  apt-cache search git-doc mercurial.*
+  245  apt-get install git-doc mercurial.*
+  246  apt-get install -reinstall git-doc mercurial.*
+  247  apt-get install --reinstall git-doc mercurial.*
+  248  zsh
+  249  /usr/lib/jvm/java-8-openjdk-armel/bin/javac -version
+  250  zsh
+  251  nano .bashrc
+  252  nano /etc/.bashrc
+  253  source /etc/.bashrc
+  254  java
+  255  nano .bashrc
+  256  source .bashrc
+  257  java
+  258  echo $PATH
+  259  PATH=$PATH:/usr/lib/jvm/java-8-openjdk-armel/jre/bin/u
+  260  nano .bashrc
+  261  source .bashrc
+  262  echo $PATH
+  263  java
+  264  javac
+  265  rm /etc/.bashrc 
+  266  echo $PATH
+  267  /usr/lib/jvm/java-8-openjdk-armel/bin/javac -version
+  268  nano .bashrc
+  269  source .bashrc
+  270  jac
+  271  java
+  272  javac
+  273  javah
+  274  apt-cache search ruby
+  275  apt-cache search mysql
+  276  apt-get install mysql-.*
+  277  mysqld
+  278  cd /var/lib/mysql
+  279  cd /var/lib/
+  280  ls
+  281  cd
+  282  ll
+  283  ls
+  284  cd R
+  285  ls
+  286  cd ..
+  287  cd Desktop/
+  288  ls
+  289  ll
+  290  cd
+  291  apt-get install mariadb-.*
+  292  mysqld
+  293  mysql -u root -p mysql
+  294  apt-get install rhc
+  295  apt-get install ruby-full
+  296  apt-get install --reinstall systemd
+  297  apt-get install --reinstall rhc
+  298  ruby -e 'puts "Welcome to Ruby"'
+  299  sudo apt-get install rubygems
+  300  sudo apt-cache search ssh
+  301  sudo apt-cache search pgp
+  302  sudo apt-get install openssh.* gnupg.* gnutls.*
+  303  sudo apt-get install openssh.*
+  304  ssh
+  305  sudo apt-get install openssh.*
+  306  ssh -v
+  307  rhc setup
+  308  ll
+  309  exit
+  310  USER=nonroot vncserver -geometry 1202x720
+  311  autoload -Uz zsh-newuser-install; zsh-newuser-install -f
+  312  zsh
+  313  exit
+  314  USER=root vncserver -geometry 1202x720
+  315  rm -rf /tmp/.X11-unix/X1
+  316  cd home/sayantan/
+  317  ls
+  318  cd ..
+  319  ls
+  320  cd Documents/
+  321  ls
+  322  cd ../git
+  323  ls
+  324  cd ci
+  325  ls
+  326  mvn package
+  327  mvn clean
+  328  ls
+  329  more pom.xml 
+  330  gradle
+  331  git pull origin master
+  332  ls
+  333  cd src/main/webapp/WEB-INF/
+  334  ls
+  335  more beans.xml 
+  336  cd../../../..
+  337  cd ../../../..
+  338  ls
+  339  mvn install
+  340  apt-get install elinks
+  341  elinks
+  342  mvn install
+  343  screen
+  344  apt-get install screen
+  345  zsh
+  346  apt-get install jenkins.*
+  347  uname -r
+  348* 
+  349  apt-get install jenkins.*
+  350  apt-get install jenkins.* -y -f
+  351  apt-cache search wildfly
+  352  ls
+  353  git status
+  354  git push origin master
+  355  cd ci
+  356  ls
+  357  ./gradlew
+  358  cd gradle/ 
+  359  ls
+  360  cd wrapper/
+  361  ls
+  362  cd ../..
+  363  more build.gradle 
+  364  cd ..
+  365  ls
+  366  cd config/
+  367  ls
+  368  more default.persistence.properties 
+  369  cd META-INF/
+  370  more persistence.xml 
+  371  mysql -u root -p mysql
+  372  service mysqld restart
+  373  /etc/init.d/mysqld restart
+  374  /etc/init.d/mysql restart
+  375  mysql -u root -p mysql
+  376  cd ../.. 
+  377  mysql -u adminJHD5464 -p clientMaster
+  378  mysql -u adminJHD5464@localhost -p clientMaster
+  379  ls
+  380  cd src
+  381  mysql -u root -p mysql
+  382  mysql -u adminJHD5464@localhost -p clientMaster
+  383  mysql -u adminJHD5464 -p clientMaster
+  384  mysql -u root -p mysql
+  385  mysql -u adminJHD5464@localhost -p clientMaster
+  386  mysql -u adminJHD5464 -p clientMaster
+  387  mysql -h localhost -u adminJHD5464 -p clientMaster
+  388  select user(), current_user();
+  389  mysql -u root -p mysql
+  390  mysql -h localhost -u adminJHD5464 -p clientMaster
+  391  mysql -h localhost -u adminJHD5464 -p
+  392  mysql -u root -p mysql
+  393  mysql -h localhost -u adminJHD5464 -p
+  394  ls
+  395  cd main/
+  396  ls
+  397  cd java
+  398  ls
+  399  cd com/sayantan/action
+  400  ls
+  401  tree
+  402  apt-get install tree
+  403  tree
+  404  more Delegate_HelloworldAction.java 
+  405  cd ..
+  406  tree
+  407  javac testingbed/HelloWorldHib.java 
+  408  java -version
+  409  sql
+  410  psql
+  411  more ~/.bashrc
+  412  echo $PATH
+  413  more /root/.bashrc
+  414  more /etc/profile
+  415  history | grep java
+  416  export PATH=$PATH:/usr/lib/jvm/java-8-openjdk-armel/bin
+  417  java
+  418  $PATH
+  419  ls /usr/lib/jvm/java-8-openjdk-armel/bin
+  420  /usr/lib/jvm/java-8-openjdk-armel/bin/java
+  421  export PATH=/usr/lib/jvm/java-8-openjdk-armel/bin:$PATH
+  422* vim /etc/pro 
+  423  vim /etc/profile
+  424  java
+  425  javac testingbed/HelloWorldHib.java 
+  426  tree
+  427  javac action/Delegate_HelloworldAction.java 
+  428  cd ../../
+  429  javac com/sayantan/action/Delegate_HelloworldAction.java 
+  430  javac -h
+  431  javac --help
+  432  javac -help
+  433  tree ../../../
+  434  javac -cp ../webapp/WEB-INF/lib com/sayantan/action/Delegate_HelloworldAction.java 
+  435  javac -cp ../webapp/WEB-INF/lib/  com/sayantan/action/Delegate_HelloworldAction.java 
+  436  javac -cp ../webapp/WEB-INF/lib/  com/sayantan/utils/AppSupport.java 
+  437* 
+  438  javac -cp ../webapp/WEB-INF/lib/  com/sayantan/utils/AppSupport.java 
+  439  cd ../../../../
+  440  ls
+  441  cd ci
+  442  cd target/classes/com/sayantan/
+  443  ls
+  444  cd testingbed/
+  445  java HelloWorldHib 
+  446  more HelloWorldHib 
+  447  more HelloWorldHib.class 
+  448  cd ../../../..
+  449  cd
+  450  cd git/ci/src/main/java/com/sayantan/testingbed/
+  451  ls
+  452  more HelloWorldHib.java 
+  453  apt-cache search tomcat
+  454  apt-get install tomcar8-.*
+  455  apt-get install tomcat8.* -y
+  456  apt-get install tomcat8.* -y --fix-missing
+  457  apt-cache search jboss
+  458  apt-cache search wildfly
+  459  apt-cache search jetty
+  460  apt-cache search jee
+  461  apt-cache search spring
+  462  apt-cache search struts2
+  463  apt-cache search struts
+  464  locate tomcat
+  465  tomcat8 start
+  466  /etc/init.d/tomcat8 start
+  467  more /etc/default/tomcat8
+  468  mvn -v
+  469  /usr/share/tomcat8/bin
+  470  /usr/share/tomcat8/bin/startup.sh 
+  471  mkdir  -p /usr/share/tomcat8/logs
+  472  /usr/share/tomcat8/bin/startup.sh 
+  473  elinks
+  474  vim /etc/tomcat8/tomcat-users.xml 
+  475  ls /var/lib/tomcat8/webapps/
+  476  ls /var/lib/tomcat8/
+  477* 
+  478  vim /etc/tomcat8/tomcat-users.xml 
+  479  /usr/share/tomcat8/bin/shutdown.sh 
+  480  /usr/share/tomcat8/bin/startup.sh 
+  481  vim /etc/tomcat8/tomcat-users.xml 
+  482  /usr/share/tomcat8/bin/shutdown.sh 
+  483  /usr/share/tomcat8/bin/startup.sh 
+  484  /usr/share/tomcat8/bin/shutdown.sh 
+  485  cp /etc/tomcat8/tomcat-users.xml ~/tomcat 
+  486  apt-get install tomcat8.* -y -f
+  487  apt-get install tomcat8.* -y -f --reinstall
+  488  /usr/share/tomcat8/bin/shutdown.sh 
+  489  /usr/share/tomcat8/bin/startup.sh 
+  490  vim /etc/tomcat8/tomcat-users.xml 
+  491  /usr/share/tomcat8/bin/shutdown.sh
+  492  /usr/share/tomcat8/bin/
+  493  cp -vfr /var/lib/tomcat8/* /usr/share/tomcat8/
+  494  /usr/share/tomcat8/bin/shutdown.sh
+  495  /usr/share/tomcat8/bin/startup.sh 
+  496  mkdir -p /usr/share/tomcat8/shared
+  497  mkdir -p /usr/share/tomcat8/shared/classes
+  498  mkdir -p /usr/share/tomcat8/server/classes
+  499  mkdir -p /usr/share/tomcat8/common/classes
+  500  pwd
+  501  cp ../../../../../../deployments/ROOT.war /sdcard/Download/
+  502  ls /usr/share/tomcat8/work/Catalina/localhost/manager
+  503  ls /usr/share/tomcat8/work/
+  504  mkdir -p /usr/share/tomcat8/work/Catalina/localhost/manager
+  505  more /usr/share/tomcat8/work
+  506  rm -rf /usr/share/tomcat8/work
+  507  mkdir -p /usr/share/tomcat8/work/Catalina/localhost/manager
+  508  vim /etc/tomcat8/tomcat-users.xml 
+  509  /usr/share/tomcat8/bin/shutdown.sh 
+  510  /usr/share/tomcat8/bin/startup.sh 
+  511  git status
+  512  cd ../../../
+  513  cd../../
+  514  cd ../../
+  515  ls
+  516  cd main
+  517  ls
+  518  cd webapp
+  519  ls
+  520  cd WEB-INF/
+  521  ls
+  522  cd ../../../
+  523  cd ..
+  524  ls
+  525  vim pom.xml
+  526  $MAVEN_PATH
+  527  mvn -v
+  528  mvn -v -X
+  529  more /usr/share/maven/conf/settings.xml 
+  530  vim /usr/share/maven/conf/settings.xml 
+  531  vim pom.xml
+  532  mvn clean install
+  533* 
+  534  /usr/share/tomcat8/bin/shutdown.sh 
+  535  mvn tomcat:deploy
+  536  /usr/share/tomcat8/bin/startup.sh 
+  537* 
+  538  vim /usr/share/maven/conf/settings.xml 
+  539  vim pom.xml
+  540  mvn tomcat8:deploy
+  541  vim pom.xml
+  542  mvn tomcat8:deploy
+  543  vim pom.xml
+  544  mvn tomcat7:deploy
+  545  mvn tomcat:deploy
+  546  cd src/main/webapp/view/
+  547  ls
+  548  cd ..
+  549  ls
+  550  vim index.html
+  551  rm -rf index.html~
+  552  cd ../../..
+  553  git status
+  554  cd config
+  555  ls
+  556  history > hist.txt

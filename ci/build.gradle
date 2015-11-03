@@ -8,7 +8,7 @@
 
 // Apply plugin automation
 apply from: 'http://www.tellurianring.com/projects/gradle-plugins/gradle-templates/apply.groovy'
-apply from: 'https://raw.github.com/akhikhl/gretty/master/pluginScripts/gretty.plugin'
+// apply from: 'https://raw.github.com/akhikhl/gretty/master/pluginScripts/gretty.plugin'
 
 // Apply the plugins
 apply plugin: 'java'
@@ -20,12 +20,12 @@ apply plugin: 'war'
 //apply plugin: 'tomcat'
 //apply plugin: 'jboss'
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 version = '1.0'
 
 task wrapper (type:Wrapper) {
-    gradleVersion = 2.0
+    gradleVersion = 2.2
 }
 
 // In this section you declare where to find the dependencies of your project
@@ -108,7 +108,7 @@ dependencies {
 }
 
 // gretty config for deployment
-gretty { port = 8080 contextPath = '/' servletContainer = 'tomcat8' }
+// gretty { port = 8080 contextPath = '/' servletContainer = 'tomcat8' }
 
 // Configuration versioning parameters for eclipse task
 eclipse {
@@ -143,7 +143,7 @@ war {
 sourceSets {
     main {
         java {
-            srcDir "../src/com/sayantan/**"
+            srcDir "../src/main/java/com/sayantan/**"
             exclude "**/*Test.java"
         }
         resources {
@@ -152,7 +152,7 @@ sourceSets {
     }
     test {
         java {
-            srcDirs = ["../src/com/sayantan/action/test", "../src/com/sayantan/actionController/test"]
+            srcDirs = ["../src/main/java/com/sayantan/action/test", "../src/main/java/com/sayantan/actionController/test"]
             include "**/*Test.java"
         }
     }

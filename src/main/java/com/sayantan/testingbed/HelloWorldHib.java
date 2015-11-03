@@ -17,7 +17,7 @@ public class HelloWorldHib {
 
 		// Start EntityManagerFactory
 		EntityManagerFactory emf = Persistence
-				.createEntityManagerFactory("nainainainainai", new DBConnector().mysql);
+				.createEntityManagerFactory("black", new DBConnector().mysql);
 
 		// First unit of work
 		EntityManager em = emf.createEntityManager();
